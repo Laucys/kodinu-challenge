@@ -1,0 +1,362 @@
+@media all and (max-width: 1200px) and (min-width: 992px) {
+    .about-img img {
+        width: 300px;
+    }
+}
+
+@media all and (max-width: 992px) and (min-width: 768px) {
+   .nav-con {
+       padding-left: 50px;
+       padding-right: 50px;
+   }
+
+   .slider-con {
+       background-position: center;
+   }
+
+   .about-text h1 {
+       text-align: center;
+   }
+
+   .about-text {
+       text-align: justify
+   }
+
+   .doctors img {
+       height: 80%;
+   }
+
+   .doctor-name,
+   .dovile {
+       top: 65%;
+       left: 57%;
+       font-size: 12px;
+       width: 200%;
+   }
+
+   .doctor-ocupation {
+       top: 73%;
+       left: 57%;
+       font-size: 12px;
+       width: 200%;
+   }
+
+   .tablet {
+       padding-bottom: 3rem;
+   }
+
+   .tablet-footer {
+       width: 100%!important;
+   }
+
+   .tablet-col-4 {
+       flex: 0 0 33.33%;
+       max-width: 33.33%;
+   }
+
+}
+
+@media all and (max-width: 768px) and (min-width: 576px) {
+
+    .slider-heading h2 {
+        font-size: 100px;
+    }
+
+    .nav-con {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .slider-con {
+        background-position: center;
+    }
+
+    .slider-text h1 {
+        font-size: 50px;
+    }
+
+    .about-text h1 {
+        text-align: center;
+    }
+
+    .about-text {
+        text-align: justify
+    }
+
+    .doctors {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media all and (max-width: 576px) and (min-width: 375px){
+
+    .slider-heading h2 {
+        display: none;
+    }
+
+    .nav-logo img {
+        max-width: 95%;
+    }
+
+    .nav-con {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .slider-con {
+        background-position: 65% 0%;
+        height: 60vh;
+    }
+
+    .slider-text {
+        text-align: center;
+    }
+
+    .slider-text p {
+        margin-top: 40px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .slider-text h1 {
+        font-size: 43px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .slider-text button {
+        margin-top: 30px;
+    }
+
+    .mobile-slider {
+        width: 97%!important;
+    }
+
+    .mobile-slider-text {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .about-text h1 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .mobile-about {
+        width: 90%;
+    }
+
+    .about-text {
+        text-align: justify
+    }
+
+    .doctors {
+        margin-bottom: 10px;
+    }
+
+    .mobile-footer {
+        width: 90%!important;
+    }
+
+    .left-footer,
+    .middle-footer {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media all and (max-width: 375px) and (min-width: 320px) {
+
+    .slider-heading h2 {
+        display: none;
+    }
+
+    .nav-logo {
+        max-width: 60%!important;
+    }
+
+    .nav-logo img {
+        max-width: 95%;
+    }
+
+    .nav-con {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .slider-con {
+        background-position: 60% 0%;
+        height: 60vh;
+    }
+
+    .slider-text {
+        text-align: center;
+    }
+
+    .slider-text p {
+        margin-top: 30px;
+        font-size: 16px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-weight: bold;
+    }
+
+    .slider-text h1 {
+        margin-top: 30px;
+        font-size: 42px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .slider-text button {
+        margin-top: 20px;
+    }
+
+    .mobile-slider {
+        width: 97%!important;
+    }
+
+    .mobile-slider-text {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .heading h1 {
+        font-size: 30px;
+    }
+
+    .about-text h1 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .mobile-about {
+        width: 90%;
+    }
+
+    .about-text {
+        text-align: justify
+    }
+
+    .doctors {
+        margin-bottom: 10px;
+    }
+
+    .doctor-name,
+    .doctor-ocupation {
+        width: 200%;
+    }
+
+
+    .mobile-footer {
+        width: 90%!important;
+    }
+
+    .left-footer,
+    .middle-footer {
+        margin-bottom: 30px;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+}
+
+@media all and (max-width: 320px) {
+
+    .slider-heading h2 {
+        display: none;
+    }
+
+    .nav-logo {
+        max-width: 60%!important;
+    }
+
+    .nav-logo img {
+        max-width: 95%;
+    }
+
+    .nav-con {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .slider-con {
+        background-position: 60% 0%;
+        height: 60vh;
+    }
+
+    .slider-text {
+        text-align: center;
+    }
+
+    .slider-text p {
+        margin-top: 30px;
+        font-size: 14px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-weight: bold;
+    }
+
+    .slider-text h1 {
+        margin-top: 30px;
+        font-size: 35px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .slider-text button {
+        margin-top: 10px;
+    }
+
+    .mobile-slider {
+        width: 97%!important;
+    }
+
+    .mobile-slider-text {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .heading h1 {
+        font-size: 30px;
+    }
+
+    .about-text h1 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .mobile-about {
+        width: 90%;
+    }
+
+    .about-text {
+        text-align: justify
+    }
+
+    .doctors {
+        margin-bottom: 10px;
+    }
+
+    .doctor-name,
+    .doctor-ocupation {
+        width: 200%;
+    }
+
+
+    .mobile-footer {
+        width: 90%!important;
+    }
+
+    .left-footer,
+    .middle-footer {
+        margin-bottom: 30px;
+    }
+
+}

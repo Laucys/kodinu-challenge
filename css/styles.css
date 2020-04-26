@@ -1,0 +1,336 @@
+/* Primary color: #1b2d37*/
+/* Secondary color: #069c75*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #f7f9fc;
+    color:#1b2d37;
+    font-family: 'Roboto', sans-serif;
+}
+
+/************************************/
+/*************  NAVBAR  *************/
+/************************************/
+.nav-con {
+    background-color: #fff;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    max-width: 1366px;
+}
+
+.navbar {
+    padding: 5px 0;
+
+}
+
+.current {
+    color: #069c75 !important;
+   
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+}
+
+.nav-logo {
+    max-width: 70%!important;
+}
+
+.logo-text {
+    margin-top: 10px;
+}
+
+.nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    transition: all .2s ease-out;
+}
+
+.nav-item {
+    padding: 0 15px 0 0;
+    
+}
+
+.nav-link:hover { 
+    color: #069c75 !important;
+}
+
+/************************************/
+/*************  SLIDER  *************/
+/************************************/
+
+.slider-con {
+    padding: 0;
+    height: 650px;
+    background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0)), url(../img/header3.jpg);
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    align-items: center;
+}
+
+.slider-row {
+    margin-top: -50px;
+    height: 300px;
+}
+
+.slider-heading {
+    display: flex;
+}
+
+.slider-heading h2 {
+    font-size: 130px;
+    color: red;
+}
+
+.slider-text h1 {
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.slider-text p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.slider-text-2 {
+    max-width: 400px;
+}
+
+.btn-primary {
+    background-color: #069c75;
+    border-color: #069c75;
+}
+
+.btn-primary:hover {
+    background-color: #1b2d37;
+    border-color: #1b2d37;
+}
+
+.slider-text-2 a {
+    text-decoration: none;
+    color: #333;
+}
+
+/************************************/
+/********  GYDYMO PASLAUGOS  ********/
+/************************************/
+
+.heading h1 {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.line {
+    width: 100px;
+    height: 2px;
+    background-color: #069c75 ;
+}
+
+.services-list h5 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.services-list p {
+    font-size: 14px;
+}
+
+.inside-paslaugos {
+    justify-content: space-between;
+}
+
+/************************************/
+/************  APIE MUS  ************/
+/************************************/
+
+.about {
+    background-color: #1b2d37;
+    color: #fff;
+}
+
+.about-text h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.about-text p {
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.about-img img {
+    border-radius: 4px;
+    width: 100%;
+}
+
+/************************************/
+/************  GYDYTOJAI  ***********/
+/************************************/
+
+.doctors {
+    position: relative;
+}
+
+.doctors img {
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.doctors:hover img {
+    cursor: pointer;
+    opacity: .5;
+}
+
+.doctor-name {
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-weight: bold;
+}
+
+.dovile {
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: bold;
+    width: 200px;
+  }
+
+.doctor-ocupation {
+  position: absolute;
+  top: 91%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.container-gydytojas {
+    max-width: 1366px;
+}
+
+.gydytojas {
+    text-align: center;
+    font-weight: 300;
+}
+
+.gydytojas-tadas img,
+.gydytoja-dovile {
+    width: 100%;
+}
+
+.lavinimasis {
+    list-style-type: none;
+}
+
+.lavinimasis li {
+    margin-bottom: 10px;
+}
+
+/************************************/
+/************  ZEMELAPIS  ***********/
+/************************************/
+
+.map {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/************************************/
+/************  FOOTERIS  ************/
+/************************************/
+
+.left-footer h4,
+.middle-footer h4 {
+    text-transform: uppercase;
+}
+
+.left-footer p {
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.middle-footer p {
+    font-weight: 300;
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+
+.right-footer ul li {
+    list-style: none;
+    margin-top: 8px;
+}
+
+.right-footer ul li a {
+    color: #fff;
+    font-weight: 300;
+}
+
+.line-footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.507);
+}
+
+.line-footer p {
+    padding-top: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.right-footer img {
+    width: 80%;
+}
+
+/************************************/
+/*******  KONTAKTAI VIDINIS  ********/
+/************************************/
+
+.kontaktai-img img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 1px solid rgba(51, 51, 51, 0.123);
+}
+
+
+/************************************/
+/**********  MEDLIZINGAS  ***********/
+/************************************/
+
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    width: 60%;
+}
